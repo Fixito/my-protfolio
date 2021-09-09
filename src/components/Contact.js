@@ -16,7 +16,8 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     fetch("/", {
-      method: { "Content-Type": "application/x-www-form-urlencoded" },
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
       .then(() => alert("Message envoyé !"))
