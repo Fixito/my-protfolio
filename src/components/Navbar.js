@@ -22,31 +22,32 @@ function Navbar() {
             CV
           </a>
         </nav>
-        <div className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+        <div className="inline-flex items-center">
           <a
             href="https://www.linkedin.com/in/thomasrobert1/"
             target="_blank"
             rel="noopener noreferrer"
+            className=" bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
           >
-            <AiFillLinkedin className="w-6 h-6 ml-1" />
+            <AiFillLinkedin className="w-5 h-5 ml-1" />
           </a>
-        </div>
-        <div className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           <a
             href="https://github.com/Fixito"
             target="_blank"
             rel="noopener noreferrer"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
           >
-            <AiFillGithub className="w-6 h-6 ml-1" />
+            <AiFillGithub className="w-5 h-5 ml-1" />
+          </a>
+
+          <a
+            href="#contact"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          >
+            Me contacter
+            <ArrowRightIcon className="w-4 h-4 ml-1" />
           </a>
         </div>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-        >
-          Me contacter
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
       </div>
     </header>
   );
