@@ -11,9 +11,11 @@ function About() {
             J'aime construire de superbes applications
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            quod qui facilis ad accusamus temporibus, laborum adipisci
-            consectetur, ducimus odit quibusdam eos. Facere, ab repellat?
+            Depuis que j'ai commencé mon parcours de développeur web en 2020, je
+            cherche à collaborer avec des entreprises et des personnes
+            talentueuses pour créer des produits numériques destinés à la fois
+            aux entreprises et aux consommateurs. Je suis naturellement curieux
+            et je travaille constamment à améliorer mes compétences.
           </p>
           <div className="flex justify-center">
             <a
@@ -33,7 +35,7 @@ function About() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object*cover object-center rounded"
-            src="./coding.svg"
+            src="./thomas.jpg"
             alt="hero"
           />
         </div>

@@ -12,9 +12,8 @@ function Projects() {
             Mes projets
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            assumenda ex nobis quidem unde cum reiciendis expedita optio
-            adipisci possimus doloremque eveniet alias, nisi doloribus.
+            Voici une sélection de mes projets qui m'ont permis de développer
+            mes compétences
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

@@ -1,35 +1,32 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "Todo App",
+    subtitle: "React",
+    description: "Todo-list",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Fixito/todos-hook",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "API Weathter",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Une application pour connaître la mtéro d'une ville recherchée",
+    image: "./project-2.jpg",
+    link: "https://github.com/Fixito/api-weather",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "Simulateur de modules IOT",
+    subtitle: "Bootstrap, Javascript, PHP, SQL",
+    description: "Une application permettant de suivre l'état de modules",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Fixito/testWebreathe",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    title: "Color Game",
+    subtitle: "Javascript",
+    description: "Un jeu où il faut deviner la couleur selon son code RGB",
+    image: "./project-4.jpg",
+    link: "https://github.com/Fixito/color-game",
   },
 ];
 
@@ -37,7 +34,7 @@ export const skills = [
   "JavaScript",
   "React",
   "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "PHP",
+  "Git",
+  "Bootstrap",
 ];

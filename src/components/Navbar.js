@@ -1,4 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import React from "react";
 
 function Navbar() {
@@ -15,14 +16,35 @@ function Navbar() {
             Mes projets
           </a>
           <a href="#skills" className="mr-5 hover:text-white">
-            Skills
+            Mes compétences
+          </a>
+          <a href="./CV.pdf" className="mr-5 hover:text-white" download>
+            CV
           </a>
         </nav>
+        <div className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          <a
+            href="https://www.linkedin.com/in/thomasrobert1/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillLinkedin className="w-6 h-6 ml-1" />
+          </a>
+        </div>
+        <div className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          <a
+            href="https://github.com/Fixito"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub className="w-6 h-6 ml-1" />
+          </a>
+        </div>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
         >
-          M'engager
+          Me contacter
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
       </div>
