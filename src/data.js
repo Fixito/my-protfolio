@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: "Blog sous Symfony",
-    subtitle: "Bootstrap, PHP, Symfony, Docker",
+    subtitle: "Bootstrap, PHP, Symfony",
     description: "Un blog réalisé dans le cadre de ma formation",
     image: "./project-3.jpg",
     link: "https://gitlab.com/Fixito/thomasrobert",
