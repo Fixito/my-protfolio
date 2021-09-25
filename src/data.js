@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "Calculator",
+    subtitle: "React, CSS",
+    description:
+      "Une calculatrice qui permet de faire les opérations arithmétiques de base.",
+    image: "./project-6.png",
+    link: "https://github.com/Fixito/react-calculator",
+  },
+  {
+    title: "Drum Machine",
+    subtitle: "React, CSS",
+    description:
+      "Une drum machine qui peut être jouée avec les click et keyPress events.",
+    image: "./project-5.png",
+    link: "https://github.com/Fixito/drum-machine",
+  },
+  {
     title: "Todo App",
     subtitle: "React, Material-UI",
     description:
