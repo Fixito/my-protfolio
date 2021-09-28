@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Pomodoro Clock",
+    subtitle: "React, CSS",
+    description: "Un minutueur basé sur la technique Pomodoro.",
+    image: "./project-7.png",
+    link: "https://github.com/Fixito/pomodoro-clock",
+  },
+  {
     title: "Calculator",
     subtitle: "React, CSS",
     description:
@@ -11,7 +18,7 @@ export const projects = [
     title: "Drum Machine",
     subtitle: "React, CSS",
     description:
-      "Une drum machine qui peut être jouée avec les click et keyPress events.",
+      "Une drum machine qui utilise les click et keyPress events pour jouer les samples.",
     image: "./project-5.png",
     link: "https://github.com/Fixito/drum-machine",
   },
@@ -19,7 +26,7 @@ export const projects = [
     title: "Todo App",
     subtitle: "React, Material-UI",
     description:
-      "Todo-list réalisée avec des hooks, des contexts et persistance des données dans le LocalStorage",
+      "Todo-list réalisée avec des hooks, des contexts et persistance des données dans le LocalStorage ",
     image: "./project-1.png",
     link: "https://github.com/Fixito/todos-hook",
   },
@@ -27,7 +34,7 @@ export const projects = [
     title: "API Weathter",
     subtitle: "HTML, CSS, Javascript",
     description:
-      "Le projet manipulant une API publique pour développer une appli météo en HTML, CSS et Vanilla JavaScript.",
+      "Le projet manipulant une API publique pour développer une appli météo.",
     image: "./project-2.png",
     link: "https://github.com/Fixito/api-weather",
   },
@@ -38,13 +45,13 @@ export const projects = [
     image: "./project-3.jpg",
     link: "https://gitlab.com/Fixito/thomasrobert",
   },
-  {
+  /*  {
     title: "Color Game",
     subtitle: "HTML, CSS, Javascript",
     description: "Un jeu où il faut deviner la couleur selon son code RGB.",
     image: "./project-4.jpg",
     link: "https://github.com/Fixito/color-game",
-  },
+  }, */
 ];
 
 export const skills = [
