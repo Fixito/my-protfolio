@@ -39,35 +39,28 @@ export const projects = [
     link: 'https://github.com/Fixito/api-weather'
   },
   {
-    title: 'Social App',
-    subtitle: 'MongoDB, Express,React, NodeJS et GraphQl',
-    description: 'Une aplli web de type réseau social.',
-    image: './project-8.png',
-    link: 'https://social-app-merng-tr.netlify.app/'
-  }
-  /*   {
     title: 'Blog sous Symfony',
     subtitle: 'Bootstrap, PHP, Symfony',
     description: 'Un blog réalisé dans le cadre de ma formation',
     image: './project-3.jpg',
     link: 'https://gitlab.com/Fixito/thomasrobert'
-  },
-  {
-    title: 'Color Game',
-    subtitle: 'HTML, CSS, Javascript',
-    description: 'Un jeu où il faut deviner la couleur selon son code RGB.',
-    image: './project-4.jpg',
-    link: 'https://github.com/Fixito/color-game'
-  } */
+  }
+  // {
+  //   title: 'Social App',
+  //   subtitle: 'MongoDB, Express,React, NodeJS et GraphQl',
+  //   description: 'Une aplli web de type réseau social.',
+  //   image: './project-8.png',
+  //   link: 'https://social-app-merng-tr.netlify.app/'
+  // }
 ];
 
 export const skills = [
   'JavaScript',
   'React',
-  'Next.js',
+  'Node.js',
   'PHP',
-  'Git',
   'Bootstrap',
   'Symfony',
-  'Worpress'
+  'Worpress',
+  'Git'
 ];
